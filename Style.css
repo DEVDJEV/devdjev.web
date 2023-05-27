@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+
+}
+
+
+
+body {
+    background-color: #2D2929;
+    color: white;
+    /* Le texte de la page sera blanc par  défaut */
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+.CouleurNav {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    width: auto;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.CouleurDuText {
+    color: #353CF6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.ParticulariteCreerCompte {
+    background-color: #353CF6;
+    color: #FFFFFF;
+
+
+}
+
+.ParticulariteMotCompte {
+    background-color: #353CF6;
+    color: #FFFFFF;
+
+    width: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+
+
+
+}
+
+.logo {
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+}
+
+
+.OffreSpecial {
+
+    margin-top: 600px;
+
+    /* Pink */
+    color: #353CF6;
+    background-color: #FFFFFF;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+
+}
+
+.Espace1 {
+    margin-top: 130px;
+}
+
+.Espace2 {
+    margin-top: 130px;
+}
+
+.PlusPopulaire {
+    margin-top: 300px;
+    /* Pink */
+    color: #353CF6;
+    background-color: #FFFFFF;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+    gap: 50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 50px;
+
+
+
+
+}
+
+.PourLocation1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 300px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+.PourLocation2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+
+.AppelAction {
+    background-color: #353CF6;
+    color: #FFFFFF;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 5px;
+    align-items: center;
+    width: auto;
+    height: 20px;
+
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+}
+
+.PourAchat1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.PourAchat2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+
+.One {
+    background-color: #FFFFFF;
+    color: #353CF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+
+}
+
+
+.Dimension1 {
+    width: 500px;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: #353CF6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Dimension2 {
+    width: 500px;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: #353CF6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Dimension3 {
+    background-color: #353CF6;
+    color: #FFFFFF;
+
+    width: auto;
+    height: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+
+.ConteneurCatalogue1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+
+
+}
+
+.ConteneurCatalogue2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+
+
+}
+
+.TableauCaracteristique {
+    background-color: #FFFFFF;
+    color: #353CF6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 900px;
+    height: 300px;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+    font-size: 1em;
+
+
+}
+
+td {
+    border: 1.5px solid black;
+    /* auront une bordure de 1px */
+}
+
+.FlexCaracteristique {
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionFormulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.MarginConnexion {
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    color: #2D2929;
+    border-radius: 15px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 0px;
+
+}
+
+
+.form-column {
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+    justify-content: space-evenly;
+
+}
+
+input[type="email"] {
+    width: 600px;
+    height: 30px;
+}
+
+input[type="password"] {
+    width: 600px;
+    height: 30px;
+}
+
+.form-column2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+    justify-content: center;
+
+}
+
+input[type="submit"] {
+    width: 600px;
+    height: 50px;
+    background: #353CF6;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.MarginConnexion2 {
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    color: #2D2929;
+    border-radius: 15px;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 0px;
+
+}
+
+
+input[type="text"] {
+    width: 600px;
+    height: 30px;
+}
+
+
+
+
+footer {
+    background-color: #FFFFFF;
+    color: #2D2929;
+    margin-top: 150px;
+    width: auto;
+}

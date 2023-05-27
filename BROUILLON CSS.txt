@@ -1,0 +1,128 @@
+
+.OffreSpecial{position: absolute;
+    width: 499px;
+    height: 86px;
+    left: -92px;
+    top: -19px;
+    
+    /* HEADER */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    
+    /* Pink */
+    color: #353CF6;
+
+}
+.PlusPopulaire{position: absolute;
+    width: 100px;
+    height: 86px;
+    left: -79px;
+    top: -19px;
+    
+    /* HEADER */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    
+    /* Pink */
+    color: #353CF6;
+
+}
+
+.Benz1{ /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.Benz2{/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.Benz3{/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.Benz4{mix-blend-mode: normal;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.Benz5{ /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.Benz6{/* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 { 
+
+    width: 150px;
+    height: 86px;
+    
+    /* HEADER */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    
+    color: #FFFFFF;
+    text-align: center;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+
+
+
+ width="2330px" height="1000px"
+
+
+
+position: relative;
+
+    CouleurDuText
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
